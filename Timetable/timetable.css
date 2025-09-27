@@ -78,14 +78,23 @@ body {
   gap: 6px;
 }
 .button-nav button {
-  width: 166px;
-  height: 50px;
-  flex-shrink: 0;
-  border: none;
-  border-radius: 200px;
-  background: #fff;
+    width: 166px;
+    height: 50px;
+    border: none;
+    border-radius: 200px;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+.button-nav button:hover {
+    background: #ffb4cf;      
+    transform: scale(1.05); 
 }
 
+.button-nav button:hover p {
+    color: #ffffff;
+}
 .button-nav button p {
   color: #e43071;
   text-align: center;
