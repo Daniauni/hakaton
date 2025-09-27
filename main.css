@@ -466,7 +466,7 @@ body {
 .left-comm {
   width: 720px;
   height: 900px;
-  background: white;
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #F4E3E9;
   display: flex;
   flex-direction: column;
 }
@@ -503,6 +503,7 @@ body {
   height: 445px;
   background: white;
   border-radius: 20px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.18)
 }
 .comment1-title {
   height: 80px;
@@ -549,10 +550,40 @@ body {
   font-weight: 400;
   line-height: 32px; /* 177.778% */
 }
+
+.full-us1{
+  display: flex;
+}
+.pic1{
+  margin-left: 65px;
+  width: 59px;
+  height: 57px;
+  border-radius: 50%;
+  background: url(/Img/comment/1.png);
+}
+.us-name1{
+  margin-left: 15px;
+  color: #424242;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 188.889% */
+}
+.full-us1 p{
+  margin-top: -10px;
+  color: #969BAB;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 242.857% */
+}
+
 .right-comm {
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #F4E3E9;
   width: 720px;
   height: 900px;
-  background: white;
 }
 
 .comment2 {
@@ -561,6 +592,7 @@ body {
   height: 343px;
   background: white;
   border-radius: 20px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.18)
 }
 
 .comment2-title {
@@ -608,6 +640,37 @@ body {
   line-height: 32px; /* 177.778% */
 }
 
+.full-us2{
+  display: flex;
+}
+.pic2{
+  margin-top: -90px;;
+  margin-left: 65px;
+  width: 59px;
+  height: 57px;
+  border-radius: 50%;
+  background: url(/Img/comment/2.png);
+}
+.us-name2{
+  margin-left: 15px;
+  margin-top: -90px;;
+  color: #424242;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 188.889% */
+}
+.full-us2 p{
+  margin-top: -10px;
+  color: #969BAB;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 242.857% */
+}
+
 .comment3 {
   margin-top: 33px;
   width: 351px;
@@ -615,6 +678,7 @@ body {
   flex-shrink: 0;
   background: white;
   border-radius: 20px;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.18)
 }
 
 .comment3-title {
@@ -660,6 +724,35 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 177.778% */
+}
+
+.full-us3{
+  display: flex;
+}
+.pic3{
+  margin-left: 65px;
+  width: 59px;
+  height: 57px;
+  border-radius: 50%;
+  background: url(/Img/comment/3.png);
+}
+.us-name3{
+  margin-left: 15px;
+  color: #424242;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 188.889% */
+}
+.full-us3 p{
+  margin-top: -10px;
+  color: #969BAB;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 242.857% */
 }
 
 .app {
@@ -743,9 +836,10 @@ body {
   width: 1440px;
   height: 323px;
   flex-shrink: 0;
+  background: #EDEDED;
 }
 .top-word{
-  background: white;
+  background: #EDEDED;
   display: flex;
   align-items: center;
   justify-content: center;
