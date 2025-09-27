@@ -204,78 +204,115 @@ body {
     margin-top: 10px;
   }
   .footer {
-    
-    background: #0c0c14; 
-    color: #fff;
-    padding: 40px 60px;
-    font-family: Arial, sans-serif;
-    margin-top: 20px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #0c0c14;
+  color: #fff;
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 30px;
 }
 
 .footer-col {
-    flex: 1;
-    min-width: 200px;
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
-.footer h2.logo {
-    font-size: 24px;
-    font-weight: bold;
+.footer h2 .logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
 }
 .footer h2 span {
-    color: #e63973;
+  color: #e63973;
 }
 
 .footer-col h4 {
-    margin-bottom: 15px;
-    font-size: 16px;
-    font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--Default-White, #fff);
+  font-feature-settings: "liga" off;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
 }
 
 .footer-col ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .footer-col ul li {
-    margin: 8px 0;
+  color: var(--Text-Gray-300, #d9dbe1);
+  font-feature-settings: "liga" off;
+
+  /* Body / Body 2 */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin: 8px 0;
 }
+
+.left-col {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer-col .left-col img {
+  width: 20px;
+  height: 18px;
+  flex-shrink: 0;
+  margin: 0px 15px 0px 0px;
+}
+
 .footer-col ul li a {
-    color: #ccc;
-    text-decoration: none;
+  color: #ccc;
+  text-decoration: none;
 }
 .footer-col ul li a:hover {
-    color: #e63973;
+  color: #e63973;
+}
+
+.socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
 }
 
 .socials a {
-    margin-right: 10px;
-    font-size: 18px;
-    color: #ccc;
+  width: 24px;
+  height: 24px;
 }
-.socials a:hover {
-    color: #e63973;
-}
+
 .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    font-size: 14px;
-    color: #888;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #888;
 }
 
 .footer-bottom a {
-    color: #aaa;
-    text-decoration: none;
-    margin: 0 5px;
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 5px;
 }
 .footer-bottom a:hover {
-    color: #e63973;
+  color: #e63973;
 }
