@@ -148,13 +148,13 @@ body {
 
 
 .footer {
-    width: 1440px;
-    height: 471px;   
-  background: #0c0c14; /* темний фон */
-  color: #fff;
-  padding: 40px 60px;
-  font-family: Arial, sans-serif;
-}
+    
+    background: #0c0c14; 
+    color: #fff;
+    padding: 40px 60px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+  }
 
 .footer-container {
   display: flex;

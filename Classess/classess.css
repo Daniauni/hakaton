@@ -20,6 +20,12 @@ body {
     justify-content: center;
   }
   
+  .header span a {
+  width: 100px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  }
   .header {
     width: 1440px;
     height: 101px;
@@ -170,7 +176,7 @@ body {
 
 
   .footer {
-    
+    width: 1440px;
     background: #0c0c14; 
     color: #fff;
     padding: 40px 60px;
