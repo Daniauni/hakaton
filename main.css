@@ -458,7 +458,6 @@ body {
 }
 
 .comments {
-
   height: 900px;
   width: 1440px;
   display: flex;
@@ -526,7 +525,6 @@ body {
   display: flex;
   width: 349px;
   height: 271px;
-
 }
 .comment1-text h1 {
   margin-left: 28px;
@@ -538,7 +536,7 @@ body {
   line-height: normal;
 }
 
-.comment1-text p{
+.comment1-text p {
   margin-top: 17px;
   margin-left: 8px;
   width: 253px;
@@ -557,64 +555,7 @@ body {
   background: white;
 }
 
-
-.app {
-  width: 1440px;
-  height: 491px;
-  flex-shrink: 0;
-  background: #e43071;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box-app {
-  height: 500px;
-  width: 540px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-}
-
-.title-app {
-  color: #fff;
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.text-app {
-  width: 489px;
-  height: 163px;
-  flex-shrink: 0;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 37px; /* 231.25% */
-}
-
-.down-app {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.app-photo {
-  width: 555px;
-  height: 40px;
-  flex-shrink: 0;
-}
-
-
-.comment2{
+.comment2 {
   margin-top: 165px;
   width: 449px;
   height: 343px;
@@ -622,17 +563,16 @@ body {
   border-radius: 20px;
 }
 
-.comment2-title{
+.comment2-title {
   height: 91px;
   width: 449px;
   display: flex;
   align-items: end;
-  
 }
 
-.comment2-title p{
+.comment2-title p {
   margin-left: 34px;
-  color: #E43071;
+  color: #e43071;
   font-family: Poppins;
   font-size: 38px;
   font-style: normal;
@@ -640,15 +580,15 @@ body {
   line-height: 119.2%; /* 45.296px */
 }
 
-.comment2-text{
+.comment2-text {
   width: 353px;
-height: 242px;
-flex-shrink: 0;
-display: flex;
+  height: 242px;
+  flex-shrink: 0;
+  display: flex;
 }
 
-.comment2-text h1{
-  color: #F8C5D7;
+.comment2-text h1 {
+  color: #f8c5d7;
   font-family: "Times New Roman";
   font-size: 58px;
   font-style: normal;
@@ -657,7 +597,7 @@ display: flex;
   margin-left: 27px;
 }
 
-.comment2-text p{
+.comment2-text p {
   margin-top: 17px;
   margin-left: 8px;
   color: #424242;
@@ -668,42 +608,41 @@ display: flex;
   line-height: 32px; /* 177.778% */
 }
 
-.comment3{
+.comment3 {
   margin-top: 33px;
   width: 351px;
-height: 278px;
-flex-shrink: 0;
-background: white;
-border-radius: 20px;
+  height: 278px;
+  flex-shrink: 0;
+  background: white;
+  border-radius: 20px;
 }
 
-.comment3-title{
-
+.comment3-title {
   width: 351px;
   height: 76px;
   display: flex;
   align-items: end;
 }
 
-.comment3-title p{
+.comment3-title p {
   margin-left: 35px;
-  color: #E43071;
-font-family: Poppins;
-font-size: 38px;
-font-style: normal;
-font-weight: 600;
-line-height: 119.2%; /* 45.296px */
+  color: #e43071;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119.2%; /* 45.296px */
 }
 
-.comment3-text{
+.comment3-text {
   width: 351px;
-height: 101px;
-flex-shrink: 0;
-display: flex;
+  height: 101px;
+  flex-shrink: 0;
+  display: flex;
 }
 
-.comment3-text h1{
-  color: #F8C5D7;
+.comment3-text h1 {
+  color: #f8c5d7;
   font-family: "Times New Roman";
   font-size: 58px;
   font-style: normal;
@@ -712,7 +651,7 @@ display: flex;
   margin-left: 27px;
 }
 
-.comment3-text p{
+.comment3-text p {
   margin-top: 17px;
   margin-left: 8px;
   color: #424242;
@@ -729,7 +668,7 @@ display: flex;
   flex-shrink: 0;
   background: #e43071;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -776,4 +715,26 @@ display: flex;
   width: 555px;
   height: 40px;
   flex-shrink: 0;
+}
+
+.app-img {
+  position: relative;
+}
+
+.app1 img {
+  width: 232px;
+  height: 464px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -400px;
+  top: -300px;
+}
+
+.app2 img {
+  width: 232px;
+  height: 380px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -150px;
+  top: -135px;
 }
