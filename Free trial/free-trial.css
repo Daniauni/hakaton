@@ -119,10 +119,11 @@ body {
   .pricing-table {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
     max-width: 1000px;
     margin: auto;
+    margin-bottom:100px;
   }
 
   .plan {
