@@ -457,21 +457,21 @@ body {
   left: 160px;
 }
 
+.comments {
 
-.comments{
   height: 900px;
   width: 1440px;
   display: flex;
 }
 
-.left-comm{
+.left-comm {
   width: 720px;
   height: 900px;
   background: white;
   display: flex;
   flex-direction: column;
 }
-.large-text-left{
+.large-text-left {
   width: 414px;
   height: 114px;
   color: var(--Grey-Two, #424242);
@@ -484,7 +484,7 @@ body {
   margin-left: 254px;
   margin-top: 126px;
 }
-.small-text-left{
+.small-text-left {
   margin-top: 12px;
   margin-left: 254px;
   width: 313px;
@@ -496,7 +496,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.comment1{
+
+.comment1 {
   margin-top: 27px;
   margin-left: 351px;
   width: 349px;
@@ -504,7 +505,7 @@ body {
   background: white;
   border-radius: 20px;
 }
-.comment1-title{
+.comment1-title {
   height: 80px;
   width: 349px;
   background: white;
@@ -512,30 +513,31 @@ body {
   border-radius: 20px;
   align-items: end;
 }
-.comment1-title p{
+.comment1-title p {
   margin-left: 20px;
-  color: #E43071;
+  color: #e43071;
   font-family: Poppins;
   font-size: 38px;
   font-style: normal;
   font-weight: 600;
   line-height: 119.2%; /* 45.296px */
 }
-.comment1-text{
+.comment1-text {
   display: flex;
   width: 349px;
   height: 271px;
 
 }
-.comment1-text h1{
+.comment1-text h1 {
   margin-left: 28px;
-  color: #F8C5D7;
-font-family: "Times New Roman";
-font-size: 58px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #f8c5d7;
+  font-family: "Times New Roman";
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
+
 .comment1-text p{
   margin-top: 17px;
   margin-left: 8px;
@@ -549,10 +551,65 @@ line-height: normal;
   font-weight: 400;
   line-height: 32px; /* 177.778% */
 }
-.right-comm{
+.right-comm {
   width: 720px;
   height: 900px;
   background: white;
+}
+
+.app {
+  width: 1440px;
+  height: 491px;
+  flex-shrink: 0;
+  background: #e43071;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-app {
+  height: 500px;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title-app {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-app {
+  width: 489px;
+  height: 163px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px; /* 231.25% */
+}
+
+.down-app {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.app-photo {
+  width: 555px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 
