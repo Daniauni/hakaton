@@ -194,7 +194,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .body-box {
@@ -263,6 +262,7 @@ body {
 
 .Text-body button {
   width: 237px;
+  background-color: transparent;
   height: 68px;
   flex-shrink: 0;
   border-radius: 38.5px;
@@ -299,7 +299,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .title-mov h1 {
@@ -369,25 +368,33 @@ body {
   background-color: #ffc1d8;
 }
 
-
-.tranbody1 {
-  
+.Facilities {
   width: 1440px;
-  height: 900px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.Text-body {
+
+.box-fac {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.Text-fac {
   height: 500px;
   width: 440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
 }
 
-.Text-body h1 {
+.title-fac {
   color: #e43071;
   font-family: Poppins;
   font-size: 40px;
@@ -396,14 +403,11 @@ body {
   line-height: normal;
 }
 
-.text-body {
-  width: 540px;
+.text-fac {
+  width: 489px;
   height: 163px;
   flex-shrink: 0;
-}
-
-.text-body P {
-  color: var(--Grey-Copy, #424242);
+  color: #424242;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -411,12 +415,13 @@ body {
   line-height: 37px; /* 231.25% */
 }
 
-.Text-body button {
+.Text-fac button {
+  background-color: transparent;
   width: 237px;
   height: 68px;
   flex-shrink: 0;
   border-radius: 38.5px;
-  border: 2px solid var(--Premium-Pink, #e43071);
+  border: 2px solid #e43071;
   color: #e43071;
   text-align: center;
   font-family: Poppins;
@@ -424,11 +429,10 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 37px; /* 231.25% */
-  margin: 45px 0px 0px 0px;
   cursor: pointer;
 }
 
-.body-img1 {
+.img-fac {
   height: 500px;
   width: 440px;
   display: flex;
@@ -436,22 +440,24 @@ body {
   position: relative;
 }
 
-.body-img .img3 img {
-  
+.img3 {
   width: 444px;
   height: 296px;
   flex-shrink: 0;
   position: absolute;
+  z-index: 3;
 }
 
-.body-img .img4 img {
+.img4 {
   width: 422px;
   height: 281px;
   flex-shrink: 0;
   position: absolute;
-  top: 50px;
+  bottom: 90px;
+  left: 160px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -549,3 +555,5 @@ line-height: normal;
   height: 900px;
   background: pink;
 }
+=======
+>>>>>>> d592d1c3424dfcfa4a213e030694e7d1bea0d49d
