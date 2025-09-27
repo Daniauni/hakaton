@@ -108,6 +108,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: background-image 0.8s ease-in-out;
 }
 
 .title-wel {
@@ -159,6 +160,28 @@ body {
   line-height: 37px; /* 231.25% */
 }
 
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.pagination-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-dot.active {
+  background-color: #ffc1d8;
+}
+
 .tranbody {
   width: 1440px;
   height: 700px;
@@ -197,7 +220,6 @@ body {
   position: absolute;
   top: 150px;
   left: 200px;
-
 }
 
 .Text-body {
@@ -247,4 +269,95 @@ body {
   line-height: 37px; /* 231.25% */
   margin: 45px 0px 0px 0px;
   cursor: pointer;
+}
+
+.motivation {
+  width: 1440px;
+  height: 700px;
+  flex-shrink: 0;
+  background-color: lightgra;
+  background-size: cover;
+  transition: background-image 0.8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./Img/welcome/2.jpg) lightgray 0px -71.886px / 100% 153.336% no-repeat;
+}
+
+.title-mov {
+  width: 850px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.title-mov h1 {
+  width: 900px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 60px rgba(0, 0, 0, 0.46);
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 10px;
+}
+
+.title-mov p {
+  width: 400px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  gap: 30px;
+}
+
+.motivation button {
+  width: 237px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 38.5px;
+  background: var(--Premium-Pink, #e43071);
+  border: none;
+  cursor: pointer;
+}
+
+.motivation button p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37px; /* 231.25% */
+}
+
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+.pagination-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-dot.active {
+  background-color: #ffc1d8;
 }
