@@ -1,12 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: "Poppins", sans-serif;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -90,31 +86,22 @@ body {
 }
 
 .button-nav button {
-    width: 166px;
-    height: 50px;
-    border: none;
-    border-radius: 200px;
-    background: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
+  width: 166px;
+  height: 50px;
+  border: none;
+  border-radius: 200px;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
 }
 .button-nav button:hover {
-    background: #ffb4cf;      
-    transform: scale(1.05); 
+  background: #ffb4cf;      
+  transform: scale(1.05); 
 }
 
 .button-nav button:hover p {
-    color: #ffffff;
-}
-
-.button-nav button hover{
-  width: 166px;
-  height: 50px;
-  flex-shrink: 0;
-  border: none;
-  border-radius: 200px;
-  background: #ffffff;
+  color: #ffffff;
 }
 
 .button-nav button p {
@@ -128,18 +115,95 @@ body {
   cursor: pointer;
 }
 
-h2 {
-    margin: 15px 0;
-}
 
-#map {
-  height: 500px;
-  width: 1200px;
-  margin: 0 auto; 
-  border: 2px solid #333; 
-}
-.footer {
-    width: 1440px;
+  .pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .plan {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 30px 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s;
+  }
+
+  .plan:hover {
+    transform: translateY(-5px);
+  }
+
+  .popular {
+    border: 2px solid #e43071;
+  }
+
+  .popular::before {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e43071;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .plan h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+  }
+
+  .features {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .features li {
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #e43071;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e43071;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .free-trial {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+  }
+  .footer {
+    
     background: #0c0c14; 
     color: #fff;
     padding: 40px 60px;
