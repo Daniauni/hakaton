@@ -738,3 +738,48 @@ body {
   left: -150px;
   top: -135px;
 }
+
+.social{
+  width: 1440px;
+  height: 323px;
+  flex-shrink: 0;
+}
+.top-word{
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-word p{
+  display: flex;
+  height: 120px;
+  width: 1440px;
+  color: var(--Premium-Pink, #E43071);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: end;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.bottom-png{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 95px;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+  margin-top: 20px;
+  height: 110px;
+  width: 110px;
+  background: pink;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
