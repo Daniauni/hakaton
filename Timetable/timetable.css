@@ -28,6 +28,13 @@ body {
   flex-direction: row;
 }
 
+.header span a {
+  width: 100px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
 .header span b {
   color: #fff;
   text-align: center;
