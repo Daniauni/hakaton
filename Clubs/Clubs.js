@@ -18,3 +18,6 @@ locations.forEach(loc => {
     L.marker(loc.coords).addTo(map)
         .bindPopup(loc.text);
 });
+function toggleTheme() {
+  document.body.classList.toggle("dark-theme");
+}
