@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 function toggleTheme() {
   document.body.classList.toggle("dark-theme");
 }
-=======
   document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.menu-toggle');
     const mobileMenu = document.querySelector('.mobile-menu');
@@ -19,4 +18,4 @@ function toggleTheme() {
       });
     }
   });
->>>>>>> 158a6e4a6cfed2c5630e893b842b561e312eb409
+

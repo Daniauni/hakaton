@@ -315,7 +315,7 @@ body {
 }
 .dark-theme .hero
 {
-<<<<<<< HEAD
+
   background:#121212;
 }
 .dark-theme .group-timetable{
@@ -324,13 +324,11 @@ body {
 .dark-theme .main-tt{
   background:#121212;
 }
-=======
-  background: linear-gradient(120deg,#110109,#0f0009);
-}
+
 .but_dark{
   background: #e43071;
   border: none;
   text-decoration: none;
   color: white;
 }
->>>>>>> 158a6e4a6cfed2c5630e893b842b561e312eb409
+
