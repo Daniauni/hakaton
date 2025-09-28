@@ -302,7 +302,8 @@ body {
 
 
 .dark-theme {
-  background-color: #121212;
+ 
+  background: linear-gradient(120deg,#110109,#0f0009);
   color: #ffffff;
 }
 
@@ -314,5 +315,11 @@ body {
 }
 .dark-theme .hero
 {
-  background:#121212;
+  background: linear-gradient(120deg,#110109,#0f0009);
+}
+.but_dark{
+  background: #e43071;
+  border: none;
+  text-decoration: none;
+  color: white;
 }
