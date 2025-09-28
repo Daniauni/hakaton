@@ -298,3 +298,17 @@ body {
 .footer-bottom a:hover {
   color: #e63973;
 }
+
+
+
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme .nav, 
+.dark-theme .footer
+.dark-theme .hero {
+  background-color: #1e1e1e;
+}
