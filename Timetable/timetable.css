@@ -312,13 +312,13 @@ body {
   background-color: #1e1e1e;
 }
 .dark-theme .hero {
-  background: #121212;
+  background: linear-gradient(120deg,#110109,#0f0009);
 }
 .dark-theme .group-timetable {
-  background: #121212;
+  background: linear-gradient(120deg,#110109,#0f0009);
 }
 .dark-theme .main-tt {
-  background: #121212;
+  background: linear-gradient(120deg,#110109,#0f0009);
 }
 
 .but_dark {
