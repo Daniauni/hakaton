@@ -127,7 +127,26 @@ body {
     background: #e6005c;
     color: #fff;
 }
+.btn-primary {
+    width: 166px;
+    height: 50px;
+    border: none;
+    border-radius: 200px;
+    background: #e6005c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+.btn-primary:hover {
+    color: #e6005c;
+    background: #ffb4cf;      
+    transform: scale(1.05); 
+}
 
+.btn-primary:hover p {
+    color: #ffffff;
+}
 .intro {
     display: flex;
     align-items: center;
