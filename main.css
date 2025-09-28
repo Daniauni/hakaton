@@ -1039,7 +1039,6 @@ body {
     text-decoration: none;
   }
 
-  /* Логотип */
   .header-logo a {
     display: flex;
     align-items: center;
