@@ -86,8 +86,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         mobileMenu.classList.toggle('active');
       });
-
-      // Закриваємо меню при кліку поза ним (опціонально)
       document.addEventListener('click', function (e) {
         if (!menuToggle.contains(e.target) && !mobileMenu.contains(e.target)) {
           mobileMenu.classList.remove('active');
