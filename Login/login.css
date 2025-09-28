@@ -197,3 +197,36 @@ width: 18px;
 height: 18px;
 font-family: Poppins;
 }
+
+
+
+
+.dark-theme {
+ 
+  background: linear-gradient(120deg,#110109,#0f0009);
+  color: #ffffff;
+}
+
+.dark-theme .nav, 
+.dark-theme .footer
+ {
+  background-color: #1e1e1e;
+   
+}
+.dark-theme .login-container
+{
+  background: linear-gradient(120deg,#110109,#0f0009);
+}
+.dark-theme .group-timetable{
+   background:#121212;
+}
+.dark-theme samp{
+  background: linear-gradient(120deg,#110109,#0f0009);
+}
+
+.but_dark{/* НЕтрогай АБО БОГДА ПІДАР*/
+  background: #e43071;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
