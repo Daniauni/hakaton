@@ -78,6 +78,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 109.5%; /* 17.52px */
+  font-size: 14px;
 }
 
 .navigation .Search {
@@ -94,11 +95,11 @@ body {
   background: #fff;
   font-size: 16px;
   cursor: pointer;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
 }
 .button-nav button:hover {
-  background: #ffb4cf;      
-  transform: scale(1.05); 
+  background: #ffb4cf;
+  transform: scale(1.05);
 }
 
 .button-nav button:hover p {
@@ -116,95 +117,94 @@ body {
   cursor: pointer;
 }
 
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 100px;
+}
 
-  .pricing-table {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom:100px;
-  }
+.plan {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s;
+}
 
-  .plan {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    padding: 30px 20px;
-    width: 300px;
-    text-align: center;
-    position: relative;
-    transition: transform 0.3s;
-  }
+.plan:hover {
+  transform: translateY(-5px);
+}
 
-  .plan:hover {
-    transform: translateY(-5px);
-  }
+.popular {
+  border: 2px solid #e43071;
+}
 
-  .popular {
-    border: 2px solid #e43071;
-  }
+.popular::before {
+  content: "MOST POPULAR";
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e43071;
+  color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+}
 
-  .popular::before {
-    content: "MOST POPULAR";
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #e43071;
-    color: white;
-    padding: 5px 15px;
-    font-size: 14px;
-    border-radius: 20px;
-  }
+.plan h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
 
-  .plan h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
+.price {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
 
-  .price {
-    font-size: 26px;
-    font-weight: bold;
-    margin: 10px 0 20px;
-  }
+.features {
+  text-align: left;
+  margin-bottom: 20px;
+}
 
-  .features {
-    text-align: left;
-    margin-bottom: 20px;
-  }
+.features li {
+  margin-bottom: 10px;
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+}
 
-  .features li {
-    margin-bottom: 10px;
-    list-style: none;
-    padding-left: 20px;
-    position: relative;
-  }
+.features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #e43071;
+}
 
-  .features li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #e43071;
-  }
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #e43071;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #e43071;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-
-  .free-trial {
-    font-size: 14px;
-    color: #999;
-    margin-top: 10px;
-  }
-  .footer {
+.free-trial {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+.footer {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -318,38 +318,13 @@ body {
   color: #e63973;
 }
 
-
-
-
-
-
-
 .dark-theme {
- 
-  background: linear-gradient(120deg,#110109,#0f0009);
+  width: 10px;
+  background: linear-gradient(120deg, #110109, #0f0009);
   color: #ffffff;
 }
 
-.dark-theme .nav, 
-.dark-theme .footer
- {
-  background-color: #1e1e1e;
-   
-}
-.dark-theme .plan
-{
-  background: linear-gradient(120deg,#110109,#0f0009);
-  box-shadow: 0 0 150px rgba(204, 16, 16, 0.1);
-  padding: 30px 20px;
-}
-.dark-theme .group-timetable{
-   background:#121212;
-}
-.dark-theme .main-tt{
-  background:#121212;
-}
-
-.but_dark{
+.but_dark {
   background: #e43071;
   border: none;
   text-decoration: none;

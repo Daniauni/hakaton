@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap);
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 * {
@@ -82,6 +82,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 109.5%; /* 17.52px */
+  font-size: 13.2px;
 }
 
 .navigation .Search {
@@ -91,25 +92,25 @@ body {
 }
 
 .button-nav button {
-    width: 166px;
-    height: 50px;
-    border: none;
-    border-radius: 200px;
-    background: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
+  width: 166px;
+  height: 50px;
+  border: none;
+  border-radius: 200px;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .button-nav button:hover {
-    background: #ffb4cf;      
-    transform: scale(1.05); 
+  background: #ffb4cf;
+  transform: scale(1.05);
 }
 
 .button-nav button:hover p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.button-nav button hover{
+.button-nav button hover {
   width: 166px;
   height: 50px;
   flex-shrink: 0;
@@ -130,14 +131,14 @@ body {
 }
 
 h2 {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 #map {
   height: 500px;
   width: 1200px;
-  margin: 0 auto; 
-  border: 2px solid #333; 
+  margin: 0 auto;
+  border: 2px solid #333;
 }
 .footer {
   width: 100%;
@@ -194,7 +195,6 @@ h2 {
 .footer-col ul li {
   color: var(--Text-Gray-300, #d9dbe1);
   font-feature-settings: "liga" off;
-
 
   font-family: Manrope;
   font-size: 14px;
@@ -253,22 +253,15 @@ h2 {
   color: #e63973;
 }
 
-
-
-
-
 .dark-theme {
-  background: linear-gradient(120deg,#110109,#0f0009);
+  background: linear-gradient(120deg, #110109, #0f0009);
   color: #ffffff;
 }
 
-.dark-theme .nav, 
-.dark-theme .footer
- {
-  background-color: #1e1e1e;
-   
-}
-.dark-theme .hero
-{
-  background: linear-gradient(120deg,#110109,#0f0009);
+.but_dark {
+  width: 50px;
+  background: #e43071;
+  border: none;
+  text-decoration: none;
+  color: white;
 }

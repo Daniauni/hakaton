@@ -2,21 +2,21 @@
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap);
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .header span a {
   width: 100px;
@@ -25,190 +25,191 @@ body {
   flex-direction: row;
 }
 .header {
-    width: 1440px;
-    height: 101px;
-    flex-shrink: 0;
-    background: #e43071;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 41px 0px 41px;
-    align-items: center;
+  width: 1440px;
+  height: 101px;
+  flex-shrink: 0;
+  background: #e43071;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 41px 0px 41px;
+  align-items: center;
 }
 
 .header span {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .header span b {
-    color: #fff;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 109.5%; 
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109.5%;
 }
 
 .header span p {
-    color: #ffc1d8;
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 109.5%;
+  color: #ffc1d8;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109.5%;
 }
 
 .navigation {
-    width: 800px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 70px;
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 109.5%; 
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+  font-size: 14px;
 }
 
 .navigation .Search {
-    display: flex;
-    justify-content: center;
-    gap: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
 }
 
 .button-nav button {
-    width: 166px;
-    height: 50px;
-    border: none;
-    border-radius: 200px;
-    background: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
+  width: 166px;
+  height: 50px;
+  border: none;
+  border-radius: 200px;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .button-nav button:hover {
-    background: #ffb4cf;      
-    transform: scale(1.05); 
+  background: #ffb4cf;
+  transform: scale(1.05);
 }
 
 .button-nav button:hover p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .button-nav button p {
-    color: #e43071;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 109.5%; 
-    cursor: pointer;
+  color: #e43071;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+  cursor: pointer;
 }
 .btn-outline {
-    background: transparent;
-    border: 2px solid #e6005c;
-    color: #e6005c;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
+  background: transparent;
+  border: 2px solid #e6005c;
+  color: #e6005c;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
 }
 .btn-outline:hover {
-    background: #e6005c;
-    color: #fff;
+  background: #e6005c;
+  color: #fff;
 }
 .btn-primary {
-    width: 166px;
-    height: 50px;
-    border: none;
-    border-radius: 200px;
-    background: #e6005c;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
+  width: 166px;
+  height: 50px;
+  border: none;
+  border-radius: 200px;
+  background: #e6005c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .btn-primary:hover {
-    color: #e6005c;
-    background: #ffb4cf;      
-    transform: scale(1.05); 
+  color: #e6005c;
+  background: #ffb4cf;
+  transform: scale(1.05);
 }
 
 .btn-primary:hover p {
-    color: #ffffff;
+  color: #ffffff;
 }
 .intro {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 10%;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  gap: 40px;
 }
 .intro-images {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .intro-text h2 span {
-    color: #e6005c;
+  color: #e6005c;
 }
 .intro-text p {
-    width: 800px;
-    margin: 20px 0;
+  width: 800px;
+  margin: 20px 0;
 }
 
 .calc {
-    padding: 50px 10%;
+  padding: 50px 10%;
 }
 .calc label {
-    display: block;
-    margin-top: 12px;
-    font-weight: bold;
-}   
-.calc input, .calc select {
-    width: 100%;
-    padding: 8px;
-    margin-top: 4px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.calc input,
+.calc select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 .btn-row {
-    margin-top: 15px;
-    display: flex;
-    gap: 10px;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
 }
 .result {
-    margin-top: 15px;
-    color: #555;
+  margin-top: 15px;
+  color: #555;
 }
 
 .card {
-    padding: 40px 10%;
-    background: #f8f8f8;
-    margin-top: 20px;
-    border-radius: 12px;
+  padding: 40px 10%;
+  background: #f8f8f8;
+  margin-top: 20px;
+  border-radius: 12px;
 }
 .card h3 {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 .card ul {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .tip {
-    color: #666;
-    font-size: 0.9rem;
+  color: #666;
+  font-size: 0.9rem;
 }
-
 
 .footer {
   width: 100%;
@@ -324,35 +325,13 @@ body {
   color: #e63973;
 }
 
-
-
-
-
-
 .dark-theme {
- 
-  background: linear-gradient(120deg,#110109,#0f0009);
+  width: 10px;
+  background: linear-gradient(120deg, #110109, #0f0009);
   color: #ffffff;
 }
 
-.dark-theme .nav, 
-.dark-theme .footer
- {
-  background-color: #1e1e1e;
-   
-}
-.dark-theme .card
-{
-  background: linear-gradient(120deg,#110109,#0f0009);
-}
-.dark-theme .group-timetable{
-   background:#121212;
-}
-.dark-theme .main-tt{
-  background:#121212;
-}
-
-.but_dark{
+.but_dark {
   background: #e43071;
   border: none;
   text-decoration: none;
