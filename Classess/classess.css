@@ -315,8 +315,7 @@ body {
 }
 .dark-theme .hero
 {
-
-  background:#121212;
+  background: linear-gradient(120deg,#110109,#0f0009);
 }
 .dark-theme .group-timetable{
    background:#121212;

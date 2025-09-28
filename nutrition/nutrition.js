@@ -52,3 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
         resultEl.innerHTML = `<strong>Sample meal suggestion:</strong> ${pick}`;
     });
 });
+function toggleTheme() {
+  document.body.classList.toggle("dark-theme");
+}
