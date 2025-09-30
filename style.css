@@ -13,6 +13,19 @@ body {
   padding: 0;
 }
 
+.header,
+.welcome,
+.tranbody,
+.motivation,
+.Facilities,
+.comments,
+.app,
+.social {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
   width: 100%;
   height: 100%;
@@ -573,7 +586,7 @@ body {
 }
 .comment1-title {
   height: 80px;
-  width: 349px;
+  width: 200px;
   background: white;
   display: flex;
   border-radius: 20px;
@@ -896,6 +909,13 @@ body {
   position: absolute;
   left: -150px;
   top: -135px;
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
 }
 
 .footer {
@@ -1454,6 +1474,7 @@ body {
       position: absolute;
       left: -75px;
       top: 230px;
+  
     }
 
     .Text-fac {
@@ -1578,6 +1599,7 @@ body {
       line-height: 1.2;
       color: #e43071;
       font-weight: 600;
+      background: red;
     }
 
     .comment1-text h1,
@@ -1851,5 +1873,3 @@ body {
     display: none;
   }
 }
-
-
